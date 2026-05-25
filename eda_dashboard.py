@@ -160,7 +160,7 @@ with st.sidebar:
 # ─────────────────────────────────────────────
 # LOAD DATA
 # ─────────────────────────────────────────────
-DEFAULT_PATH = "C:\Users\ASUS\Downloads\CAPSTONE\Data\master_dataset_interim.csv"
+DEFAULT_PATH = r"C:\Users\ASUS\Downloads\CAPSTONE\Data\master_dataset_interim.csv"
 
 if uploaded:
     df_raw = load_data(uploaded)
